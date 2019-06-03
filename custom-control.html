@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.checkbox{
+			display: none;
+		}
+		.checkbox+i{
+			display: inline-block;
+			content: '';
+			font-style: normal;
+			width: 20px;
+			height: 20px;
+			border-radius: 50%;
+			background-color: pink;
+		}
+		.checkbox:checked+i{
+			background-color: blue;
+		}
+		.checkbox+i::after{
+			 
+
+		} 
+		.checkbox:checked+i::after{
+			display: inline-block;
+			content: '';
+			margin: 5px;
+			width: 10px;
+			height: 10px;
+			border-radius: 50%;
+			background-color: pink;
+			
+		}
+		ul{
+			list-style: none;
+		}
+		ul>li{
+			display: inline-block;
+		}
+		ul>li+li::before{
+			content: '|';
+		}
+	</style>
+</head>
+<body>
+	<label>
+		<input type="checkbox" class="checkbox">
+		<i></i>
+	</label>	
+	<ul>
+		<li>item01</li>
+		<li>item02</li>
+		<li>item03</li>
+		<li>item04</li>
+		<li>item05</li>
+		<li>item06</li>
+		<li>item07</li>
+		<li>item08</li>
+		<li>item09</li>
+		<li>item10</li>
+	</ul>
+</body>
+</html>
