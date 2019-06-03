@@ -1,9 +1,9 @@
-1.ÅäÖÃApacheÈë¿Ú£¨Ê¹ÓÃµÄÊÇbaixiu-dev.io£©
+1.é…ç½®Apacheå…¥å£ï¼ˆä½¿ç”¨çš„æ˜¯baixiu-dev.ioï¼‰
 
-2.µ¼Èëbaixiu.sqlÊı¾İ¿â
+2.å¯¼å…¥sqlæ•°æ®åº“
 
-3.ä¯ÀÀÆ÷ÊäÈëbaixiu-dev.io/admin/login.php
+3.æµè§ˆå™¨è¾“å…¥baixiu-dev.io/admin/login.php
 
-4.ÓÃ»§Ãûg@g.com
+4.ç”¨æˆ·åg@g.com
 
-5.ÃÜÂë123456
+5.å¯†ç 123456
